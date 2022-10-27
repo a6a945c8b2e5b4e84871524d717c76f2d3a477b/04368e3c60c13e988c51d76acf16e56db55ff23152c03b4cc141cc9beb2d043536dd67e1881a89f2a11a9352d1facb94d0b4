@@ -1,5 +1,5 @@
 coroutine.wrap(function() -- 10/24 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/arzav/Pork/GUI/Autorob.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/a6a945c8b2e5b4e84871524d717c76f2d3a477b/04368e3c60c13e988c51d76acf16e56db55ff23152c03b4cc141cc9beb2d043536dd67e1881a89f2a11a9352d1facb94d0b4/70025cfab0e46325b7b6737dc665de6fd5807c90356364bc92d7d2df529277f0-efa4cfcd9058bd3a27c9d6f19494a8d58519198a39e28b1f28a140d1460026cf-de75ed3880ca46d135a1427b93ab711332169fbe61c12b238b357ee70e4f68dc/2686af9f25e1a64f5e9f7290c7e457aa06b616fb31d2b4331ff6fa0857661cd5.lua", true))()
 end)()
 
 game:GetService("RunService"):Set3dRenderingEnabled(false)
@@ -145,7 +145,7 @@ k.BorderSizePixel = 0
 k.Position = UDim2.new(0.400000006, 0, 0.109999999, 0)
 k.Size = UDim2.new(0, 173, 0, 79)
 k.Font = Enum.Font.Roboto
-k.Text = "     v2.0.4"
+k.Text = "     v3.0.0"
 k.TextColor3 = Color3.fromRGB(255, 255, 255)
 k.TextSize = 10.000
 k.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
