@@ -1,7 +1,5 @@
-print("test worked")
-
 return {
-  "test1",
-  "test2",
-  "test3"
+  "penis",
+  "cock",
+  "dick"
 }
