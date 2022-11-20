@@ -185,36 +185,36 @@ local function s()
     local o = Instance.new("LocalScript", j)
     while wait() do
         if game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "10" then --kill
-            local bagnumer = game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text
+            bagnumer = game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text
 	    if bagnumer == 2 then
-	        local bagnumer = 1
+	        bagnumer = 1
 	    end
 	    if bagnumer == 4 then
-	        local bagnumer = 3
+	        bagnumer = 3
 	    end
 	    if bagnumer == 6 then
-	        local bagnumer = 5
+	        bagnumer = 5
 	    end
 	    if bagnumer == 8 then
-	        local bagnumer = 7
+	        bagnumer = 7
 	    end
 	    if bagnumer == 10 then
-	        local bagnumer = 8
+	        bagnumer = 8
 	    end
 	    if bagnumer == 12 then
-	        local bagnumer = 10
+	        bagnumer = 10
 	    end
 	    if bagnumer == 14 then
-	        local bagnumer = 11
+	        bagnumer = 11
 	    end
 	    if bagnumer == 16 then
-	        local bagnumer = 12
+	        bagnumer = 12
 	    end
 	    if bagnumer == 18 then
-	        local bagnumer = 14
+	        bagnumer = 14
 	    end
 	    if bagnumer == 20 then
-	        local bagnumer = 16
+	        bagnumer = 16
 	    end
 	    o.Parent.Text =
                 "BAG: " ..
