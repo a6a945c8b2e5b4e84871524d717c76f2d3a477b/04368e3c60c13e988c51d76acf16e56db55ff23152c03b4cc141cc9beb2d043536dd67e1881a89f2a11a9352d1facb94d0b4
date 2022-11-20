@@ -185,34 +185,34 @@ local function s()
     while wait() do
         if game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "10" then --kill
             local bagnumer = game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text
-	    if bagnumer = 2 then
+	    if bagnumer == 2 then
 	        local bagnumer = 1
 	    end
-	    if bagnumer = 4 then
+	    if bagnumer == 4 then
 	        local bagnumer = 3
 	    end
-	    if bagnumer = 6 then
+	    if bagnumer == 6 then
 	        local bagnumer = 5
 	    end
-	    if bagnumer = 8 then
+	    if bagnumer == 8 then
 	        local bagnumer = 7
 	    end
-	    if bagnumer = 10 then
+	    if bagnumer == 10 then
 	        local bagnumer = 8
 	    end
-	    if bagnumer = 12 then
+	    if bagnumer == 12 then
 	        local bagnumer = 10
 	    end
-	    if bagnumer = 14 then
+	    if bagnumer == 14 then
 	        local bagnumer = 11
 	    end
-	    if bagnumer = 16 then
+	    if bagnumer == 16 then
 	        local bagnumer = 12
 	    end
-	    if bagnumer = 18 then
+	    if bagnumer == 18 then
 	        local bagnumer = 14
 	    end
-	    if bagnumer = 20 then
+	    if bagnumer == 20 then
 	        local bagnumer = 16
 	    end
 	    o.Parent.Text =
