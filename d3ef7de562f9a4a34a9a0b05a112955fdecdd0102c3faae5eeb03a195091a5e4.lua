@@ -184,9 +184,13 @@ local function s()
     local o = Instance.new("LocalScript", j)
     while wait() do
         if game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "20" or game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "10" then
-            o.Parent.Text =
+            local bagnumer = game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text - game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text * 0.2
+	    o.Parent.Text =
+		if bagnumer < 0 then
+		    local bagnumer = 0
+		end
                 "BAG: " ..
-                game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text - game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text * 0.2 ..
+                bagnumer ..
                     "/" .. game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text * 0.8
 		end
 		if game.Players.LocalPlayer.Cash.Value ~= p then
