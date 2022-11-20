@@ -183,11 +183,11 @@ coroutine.wrap(r)()
 local function s()
     local o = Instance.new("LocalScript", j)
     while wait() do
-        if game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "20" then
+        if game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "20" or game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "10" then
             o.Parent.Text =
                 "BAG: " ..
-                game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text ..
-                    "/" .. game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text
+                game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text - game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text * 0.2 ..
+                    "/" .. game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text * 0.8
 		end
 		if game.Players.LocalPlayer.Cash.Value ~= p then
 			o.Parent.Text = "BAG: Collected!"
