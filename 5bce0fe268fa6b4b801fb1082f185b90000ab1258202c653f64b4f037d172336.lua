@@ -135,7 +135,6 @@ wait(5)
 game:Shutdown()
 end
 
-else
-game:Shutdown()
+
 end
 end
