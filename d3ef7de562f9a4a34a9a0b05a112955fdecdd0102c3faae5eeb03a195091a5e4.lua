@@ -1,8 +1,8 @@
 coroutine.wrap(function() --- 11/19
-print("sub world")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/a6a945c8b2e5b4e84871524d717c76f2d3a477b/04368e3c60c13e988c51d76acf16e56db55ff23152c03b4cc141cc9beb2d043536dd67e1881a89f2a11a9352d1facb94d0b4/70025cfab0e46325b7b6737dc665de6fd5807c90356364bc92d7d2df529277f0-efa4cfcd9058bd3a27c9d6f19494a8d58519198a39e28b1f28a140d1460026cf-de75ed3880ca46d135a1427b93ab711332169fbe61c12b238b357ee70e4f68dc/2686af9f25e1a64f5e9f7290c7e457aa06b616fb31d2b4331ff6fa0857661cd5.lua", true))()
 end)()
 
+	print("sub world")
 game:GetService("RunService"):Set3dRenderingEnabled(false)
 
 local a = Instance.new("ScreenGui")
@@ -186,35 +186,35 @@ local function s()
     while wait() do
         if game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "10" then --kill
             bagnumer = game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text
-	    if bagnumer == 2 then
+	    if bagnumer == "2" then
 	        bagnumer = 1
 	    end
-	    if bagnumer == 4 then
+	    if bagnumer == "4" then
 	        bagnumer = 3
 	    end
-	    if bagnumer == 6 then
+	    if bagnumer == "6" then
 	        bagnumer = 5
 	    end
-	    if bagnumer == 8 then
-	        bagnumer = 7
+	    if bagnumer == "8" then
+	        bagnumer = "7"
 	    end
-	    if bagnumer == 10 then
-	        bagnumer = 8
+	    if bagnumer == "10" then
+	        bagnumer = "8"
 	    end
-	    if bagnumer == 12 then
-	        bagnumer = 10
+	    if bagnumer == "12" then
+	        bagnumer = "10"
 	    end
-	    if bagnumer == 14 then
-	        bagnumer = 11
+	    if bagnumer == "14" then
+	        bagnumer = "11"
 	    end
-	    if bagnumer == 16 then
-	        bagnumer = 12
+	    if bagnumer == "16" then
+	        bagnumer = "12"
 	    end
-	    if bagnumer == 18 then
-	        bagnumer = 14
+	    if bagnumer == "18" then
+	        bagnumer = "14"
 	    end
-	    if bagnumer == 20 then
-	        bagnumer = 16
+	    if bagnumer == "20" then
+	        bagnumer = "16"
 	    end
 	    o.Parent.Text =
                 "BAG: " ..
@@ -246,7 +246,7 @@ local function t()
                     )
                 end
             end
-        end
+        end --kill
         game.DescendantAdded:Connect(
             function(v)
                 if v:IsA("Sound") then
