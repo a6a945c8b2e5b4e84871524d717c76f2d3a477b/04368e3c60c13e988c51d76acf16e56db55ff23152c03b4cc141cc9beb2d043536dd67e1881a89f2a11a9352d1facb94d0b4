@@ -183,8 +183,8 @@ coroutine.wrap(r)()
 local function s()
     local o = Instance.new("LocalScript", j)
     while wait() do
-        if game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "10" then
-            local bagnumer = 0.2 * game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text - game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text
+        if game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "20" or game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Denominator.Text == "10" then
+            local bagnumer = game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text - 0.2 * game.Players.LocalPlayer.PlayerGui["All-InBackpackDisplayHolder"].MainHolder.Numerator.Text
 	    if bagnumer < 0 then
 	        local bagnumer = 0
 	    end
